@@ -1,0 +1,120 @@
+.coverpage{
+    width: 100%;
+    height: 100%;
+    text-align:center;
+    background-position: center;
+    position: absolute;
+    /*color: rgb(0, 0, 0);*/
+    background-color: rgb(57, 135, 236);
+      background-image: url('home.webp');
+     opacity: 10px;
+
+     overflow: hidden;
+                                                                                    
+}
+.form1{
+    width: 50%;
+    height: 70%;
+    opacity: 80%;
+    top: 5%;
+    left: 5%;
+    position: absolute;
+    padding: 120px 10px;
+
+}
+.form1 input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form1 button{
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.form1 input[type="text"]{
+    border: none;
+    border-bottom: 1px solid  rgb(0, 0, 0);
+    background: transparent;
+    outline: none; 
+    height: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+.form1 button[type="submit"]{
+
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    cursor: pointer;
+    width: 110px;
+ 
+    
+}
+
+
+.buttonDelete{
+    /*border:none;
+    outline: none;
+    height: 20%;
+    background: rgb(0, 140, 255);
+    color: rgb(0, 0, 0);
+    font-style: inherit;
+    padding-top: 5%;*/
+
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px 5px;
+    cursor: pointer;
+    
+   
+}
+.app-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 140, 255);
+    background-image: url('home.webp');
+    background-size:cover ;
+    background-position: center;
+    position: absolute;
+    padding-right: 80px;
+}
+.usersbox{
+    width: 50%;
+    height: 20%;
+    background-color: rgb(228, 215, 226);
+    top: 40%;
+    left: 30%;
+    position: relative;
+    padding-bottom: 3%;
+    
+
+}
+
+.boxuser{
+    width: 30%;
+    height: 73%;
+    padding: 120px 10px;
+    top: 5%;
+    left: 60%;
+    right: 5%;
+    position: absolute;
+        
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width:1000px) {
+    .coverpage{
+        background-color: rgb(221, 181, 235);
+    }
+}
